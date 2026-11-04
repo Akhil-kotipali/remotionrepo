@@ -1,54 +1,81 @@
-# Remotion video
+# Remotion + ElevenLabs Voice Sync & 3D Model Pipeline
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+This Remotion project includes full support for **ElevenLabs AI voiceover with frame-accurate word sync** and **Three.js 3D model rendering (.glb / .gltf)**.
 
-Welcome to your Remotion project!
+---
 
-## Commands
+## 🎙️ ElevenLabs Voice Synchronization
 
-**Install Dependencies**
-
-```console
-npm i
+### 1. Setup API Key
+Create a `.env` file in the root directory:
+```env
+ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
+ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM  # Optional (Rachel by default)
 ```
 
-**Start Preview**
+### 2. Generate Audio & Timestamps
+Run the generator script with your desired script:
+```bash
+npm run generate:tts -- "Your voiceover script goes here..."
+```
 
-```console
+This outputs:
+- `public/audio/<filename>.mp3`: High-fidelity audio file.
+- `public/audio/<filename>.json`: Frame-accurate word-level timestamp metadata:
+  ```json
+  {
+    "durationInFrames": 260,
+    "words": [
+      { "text": "Welcome", "startFrame": 3, "endFrame": 12 },
+      { "text": "to", "startFrame": 13, "endFrame": 22 }
+    ]
+  }
+  ```
+
+### 3. Generate Subtitles (SRT)
+```bash
+npm run generate:captions
+```
+
+---
+
+## 🧊 3D Models (.glb / .gltf) Support
+
+The project is configured with `@remotion/three`, `@react-three/fiber`, and `@react-three/drei`.
+
+### Built-in 3D Character
+A fully procedural, speech-reactive 3D character is included in `src/components/ThreeDScene.tsx`. It automatically reacts to speaking states (mouth opening, visor glowing, idle floating).
+
+### Loading Custom 3D Models
+1. Drop your `.glb` model into `public/models/my_character.glb`.
+2. Use the included `GLBModelLoader` component:
+```tsx
+import { GLBModelLoader } from "./components/GLBModelLoader";
+import { staticFile } from "remotion";
+
+<GLBModelLoader
+  modelPath={staticFile("models/my_character.glb")}
+  animationName="Talk" // Name of baked animation clip
+  position={[0, -1, 0]}
+  scale={1.5}
+/>
+```
+
+---
+
+## 🚀 Running the Project
+
+**Start Remotion Studio:**
+```bash
 npm run dev
 ```
 
-**Render video**
-
-```console
-npx remotion render
+**Render Video:**
+```bash
+npx remotion render VoiceAnd3D out.mp4
 ```
 
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
+**Render Still Frame:**
+```bash
+npx remotion still VoiceAnd3D out.png --frame=30
 ```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).

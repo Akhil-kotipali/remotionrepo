@@ -1,0 +1,765 @@
+{
+  "audioFile": "audio/demo_voice.mp3",
+  "text": "At twenty percent, you open the camera... and your phone dies. Let it rest or warm up, and it can turn back on. The battery was never empty. The percentage is only an estimate from a tiny chip. Think of your battery as a water tank. The water is charge. The pressure is voltage. Heavy apps pull hard, and cold or aging narrows the pipe, so the pressure drops. Below a minimum, your phone shuts off. University of Michigan researchers watched a phone die at minus fifteen degrees Celsius, still showing thirty percent. Your phone didn't run out of energy. It ran out of pressure. And that's why...",
+  "fps": 30,
+  "durationInSeconds": 39.056,
+  "durationInFrames": 1172,
+  "words": [
+    {
+      "text": "At",
+      "start": 0,
+      "end": 0.163,
+      "startFrame": 0,
+      "endFrame": 5
+    },
+    {
+      "text": "twenty",
+      "start": 0.197,
+      "end": 0.499,
+      "startFrame": 6,
+      "endFrame": 15
+    },
+    {
+      "text": "percent,",
+      "start": 0.557,
+      "end": 1.033,
+      "startFrame": 17,
+      "endFrame": 31
+    },
+    {
+      "text": "you",
+      "start": 1.115,
+      "end": 1.207,
+      "startFrame": 33,
+      "endFrame": 36
+    },
+    {
+      "text": "open",
+      "start": 1.3,
+      "end": 1.544,
+      "startFrame": 39,
+      "endFrame": 46
+    },
+    {
+      "text": "the",
+      "start": 1.591,
+      "end": 1.66,
+      "startFrame": 48,
+      "endFrame": 50
+    },
+    {
+      "text": "camera...",
+      "start": 1.695,
+      "end": 2.322,
+      "startFrame": 51,
+      "endFrame": 70
+    },
+    {
+      "text": "and",
+      "start": 2.566,
+      "end": 2.705,
+      "startFrame": 77,
+      "endFrame": 81
+    },
+    {
+      "text": "your",
+      "start": 2.763,
+      "end": 2.879,
+      "startFrame": 83,
+      "endFrame": 86
+    },
+    {
+      "text": "phone",
+      "start": 2.926,
+      "end": 3.193,
+      "startFrame": 88,
+      "endFrame": 96
+    },
+    {
+      "text": "dies.",
+      "start": 3.228,
+      "end": 3.808,
+      "startFrame": 97,
+      "endFrame": 114
+    },
+    {
+      "text": "Let",
+      "start": 4.319,
+      "end": 4.493,
+      "startFrame": 130,
+      "endFrame": 135
+    },
+    {
+      "text": "it",
+      "start": 4.54,
+      "end": 4.609,
+      "startFrame": 136,
+      "endFrame": 138
+    },
+    {
+      "text": "rest",
+      "start": 4.69,
+      "end": 5.016,
+      "startFrame": 141,
+      "endFrame": 150
+    },
+    {
+      "text": "or",
+      "start": 5.108,
+      "end": 5.259,
+      "startFrame": 153,
+      "endFrame": 158
+    },
+    {
+      "text": "warm",
+      "start": 5.329,
+      "end": 5.573,
+      "startFrame": 160,
+      "endFrame": 167
+    },
+    {
+      "text": "up,",
+      "start": 5.642,
+      "end": 5.979,
+      "startFrame": 169,
+      "endFrame": 179
+    },
+    {
+      "text": "and",
+      "start": 6.037,
+      "end": 6.177,
+      "startFrame": 181,
+      "endFrame": 185
+    },
+    {
+      "text": "it",
+      "start": 6.235,
+      "end": 6.293,
+      "startFrame": 187,
+      "endFrame": 189
+    },
+    {
+      "text": "can",
+      "start": 6.327,
+      "end": 6.444,
+      "startFrame": 190,
+      "endFrame": 193
+    },
+    {
+      "text": "turn",
+      "start": 6.49,
+      "end": 6.699,
+      "startFrame": 195,
+      "endFrame": 201
+    },
+    {
+      "text": "back",
+      "start": 6.757,
+      "end": 6.931,
+      "startFrame": 203,
+      "endFrame": 208
+    },
+    {
+      "text": "on.",
+      "start": 7.001,
+      "end": 7.419,
+      "startFrame": 210,
+      "endFrame": 223
+    },
+    {
+      "text": "The",
+      "start": 7.86,
+      "end": 7.976,
+      "startFrame": 236,
+      "endFrame": 239
+    },
+    {
+      "text": "battery",
+      "start": 8.022,
+      "end": 8.359,
+      "startFrame": 241,
+      "endFrame": 251
+    },
+    {
+      "text": "was",
+      "start": 8.406,
+      "end": 8.51,
+      "startFrame": 252,
+      "endFrame": 255
+    },
+    {
+      "text": "never",
+      "start": 8.568,
+      "end": 8.766,
+      "startFrame": 257,
+      "endFrame": 263
+    },
+    {
+      "text": "empty.",
+      "start": 8.835,
+      "end": 9.404,
+      "startFrame": 265,
+      "endFrame": 282
+    },
+    {
+      "text": "The",
+      "start": 9.648,
+      "end": 9.764,
+      "startFrame": 289,
+      "endFrame": 293
+    },
+    {
+      "text": "percentage",
+      "start": 9.822,
+      "end": 10.344,
+      "startFrame": 295,
+      "endFrame": 310
+    },
+    {
+      "text": "is",
+      "start": 10.391,
+      "end": 10.472,
+      "startFrame": 312,
+      "endFrame": 314
+    },
+    {
+      "text": "only",
+      "start": 10.53,
+      "end": 10.739,
+      "startFrame": 316,
+      "endFrame": 322
+    },
+    {
+      "text": "an",
+      "start": 10.786,
+      "end": 10.844,
+      "startFrame": 324,
+      "endFrame": 325
+    },
+    {
+      "text": "estimate",
+      "start": 10.925,
+      "end": 11.378,
+      "startFrame": 328,
+      "endFrame": 341
+    },
+    {
+      "text": "from",
+      "start": 11.401,
+      "end": 11.529,
+      "startFrame": 342,
+      "endFrame": 346
+    },
+    {
+      "text": "a",
+      "start": 11.575,
+      "end": 11.598,
+      "startFrame": 347,
+      "endFrame": 348
+    },
+    {
+      "text": "tiny",
+      "start": 11.656,
+      "end": 11.981,
+      "startFrame": 350,
+      "endFrame": 359
+    },
+    {
+      "text": "chip.",
+      "start": 12.051,
+      "end": 12.562,
+      "startFrame": 362,
+      "endFrame": 377
+    },
+    {
+      "text": "Think",
+      "start": 13.003,
+      "end": 13.247,
+      "startFrame": 390,
+      "endFrame": 397
+    },
+    {
+      "text": "of",
+      "start": 13.305,
+      "end": 13.351,
+      "startFrame": 399,
+      "endFrame": 401
+    },
+    {
+      "text": "your",
+      "start": 13.41,
+      "end": 13.526,
+      "startFrame": 402,
+      "endFrame": 406
+    },
+    {
+      "text": "battery",
+      "start": 13.584,
+      "end": 13.967,
+      "startFrame": 408,
+      "endFrame": 419
+    },
+    {
+      "text": "as",
+      "start": 14.025,
+      "end": 14.118,
+      "startFrame": 421,
+      "endFrame": 424
+    },
+    {
+      "text": "a",
+      "start": 14.164,
+      "end": 14.187,
+      "startFrame": 425,
+      "endFrame": 426
+    },
+    {
+      "text": "water",
+      "start": 14.245,
+      "end": 14.524,
+      "startFrame": 427,
+      "endFrame": 436
+    },
+    {
+      "text": "tank.",
+      "start": 14.57,
+      "end": 15.058,
+      "startFrame": 437,
+      "endFrame": 452
+    },
+    {
+      "text": "The",
+      "start": 15.441,
+      "end": 15.569,
+      "startFrame": 463,
+      "endFrame": 467
+    },
+    {
+      "text": "water",
+      "start": 15.615,
+      "end": 15.917,
+      "startFrame": 468,
+      "endFrame": 478
+    },
+    {
+      "text": "is",
+      "start": 15.963,
+      "end": 16.045,
+      "startFrame": 479,
+      "endFrame": 481
+    },
+    {
+      "text": "charge.",
+      "start": 16.103,
+      "end": 16.683,
+      "startFrame": 483,
+      "endFrame": 500
+    },
+    {
+      "text": "The",
+      "start": 16.834,
+      "end": 16.962,
+      "startFrame": 505,
+      "endFrame": 509
+    },
+    {
+      "text": "pressure",
+      "start": 17.008,
+      "end": 17.333,
+      "startFrame": 510,
+      "endFrame": 520
+    },
+    {
+      "text": "is",
+      "start": 17.368,
+      "end": 17.438,
+      "startFrame": 521,
+      "endFrame": 523
+    },
+    {
+      "text": "voltage.",
+      "start": 17.496,
+      "end": 18.158,
+      "startFrame": 525,
+      "endFrame": 545
+    },
+    {
+      "text": "Heavy",
+      "start": 18.599,
+      "end": 18.877,
+      "startFrame": 558,
+      "endFrame": 566
+    },
+    {
+      "text": "apps",
+      "start": 18.959,
+      "end": 19.226,
+      "startFrame": 569,
+      "endFrame": 577
+    },
+    {
+      "text": "pull",
+      "start": 19.284,
+      "end": 19.528,
+      "startFrame": 579,
+      "endFrame": 586
+    },
+    {
+      "text": "hard,",
+      "start": 19.62,
+      "end": 20.096,
+      "startFrame": 589,
+      "endFrame": 603
+    },
+    {
+      "text": "and",
+      "start": 20.213,
+      "end": 20.363,
+      "startFrame": 606,
+      "endFrame": 611
+    },
+    {
+      "text": "cold",
+      "start": 20.456,
+      "end": 20.77,
+      "startFrame": 614,
+      "endFrame": 623
+    },
+    {
+      "text": "or",
+      "start": 20.828,
+      "end": 20.909,
+      "startFrame": 625,
+      "endFrame": 627
+    },
+    {
+      "text": "aging",
+      "start": 20.979,
+      "end": 21.362,
+      "startFrame": 629,
+      "endFrame": 641
+    },
+    {
+      "text": "narrows",
+      "start": 21.443,
+      "end": 21.803,
+      "startFrame": 643,
+      "endFrame": 654
+    },
+    {
+      "text": "the",
+      "start": 21.85,
+      "end": 21.919,
+      "startFrame": 656,
+      "endFrame": 658
+    },
+    {
+      "text": "pipe,",
+      "start": 21.977,
+      "end": 22.5,
+      "startFrame": 659,
+      "endFrame": 675
+    },
+    {
+      "text": "so",
+      "start": 22.651,
+      "end": 22.778,
+      "startFrame": 680,
+      "endFrame": 683
+    },
+    {
+      "text": "the",
+      "start": 22.836,
+      "end": 22.906,
+      "startFrame": 685,
+      "endFrame": 687
+    },
+    {
+      "text": "pressure",
+      "start": 22.953,
+      "end": 23.254,
+      "startFrame": 689,
+      "endFrame": 698
+    },
+    {
+      "text": "drops.",
+      "start": 23.289,
+      "end": 23.87,
+      "startFrame": 699,
+      "endFrame": 716
+    },
+    {
+      "text": "Below",
+      "start": 24.311,
+      "end": 24.601,
+      "startFrame": 729,
+      "endFrame": 738
+    },
+    {
+      "text": "a",
+      "start": 24.659,
+      "end": 24.682,
+      "startFrame": 740,
+      "endFrame": 741
+    },
+    {
+      "text": "minimum,",
+      "start": 24.717,
+      "end": 25.135,
+      "startFrame": 742,
+      "endFrame": 754
+    },
+    {
+      "text": "your",
+      "start": 25.205,
+      "end": 25.356,
+      "startFrame": 756,
+      "endFrame": 761
+    },
+    {
+      "text": "phone",
+      "start": 25.402,
+      "end": 25.681,
+      "startFrame": 762,
+      "endFrame": 770
+    },
+    {
+      "text": "shuts",
+      "start": 25.716,
+      "end": 25.983,
+      "startFrame": 771,
+      "endFrame": 779
+    },
+    {
+      "text": "off.",
+      "start": 26.041,
+      "end": 26.447,
+      "startFrame": 781,
+      "endFrame": 793
+    },
+    {
+      "text": "University",
+      "start": 27.26,
+      "end": 27.817,
+      "startFrame": 818,
+      "endFrame": 835
+    },
+    {
+      "text": "of",
+      "start": 27.864,
+      "end": 27.91,
+      "startFrame": 836,
+      "endFrame": 837
+    },
+    {
+      "text": "Michigan",
+      "start": 27.98,
+      "end": 28.34,
+      "startFrame": 839,
+      "endFrame": 850
+    },
+    {
+      "text": "researchers",
+      "start": 28.409,
+      "end": 29.036,
+      "startFrame": 852,
+      "endFrame": 871
+    },
+    {
+      "text": "watched",
+      "start": 29.28,
+      "end": 29.617,
+      "startFrame": 878,
+      "endFrame": 889
+    },
+    {
+      "text": "a",
+      "start": 29.663,
+      "end": 29.686,
+      "startFrame": 890,
+      "endFrame": 891
+    },
+    {
+      "text": "phone",
+      "start": 29.744,
+      "end": 30.046,
+      "startFrame": 892,
+      "endFrame": 901
+    },
+    {
+      "text": "die",
+      "start": 30.093,
+      "end": 30.383,
+      "startFrame": 903,
+      "endFrame": 911
+    },
+    {
+      "text": "at",
+      "start": 30.429,
+      "end": 30.499,
+      "startFrame": 913,
+      "endFrame": 915
+    },
+    {
+      "text": "minus",
+      "start": 30.569,
+      "end": 30.871,
+      "startFrame": 917,
+      "endFrame": 926
+    },
+    {
+      "text": "fifteen",
+      "start": 30.929,
+      "end": 31.289,
+      "startFrame": 928,
+      "endFrame": 939
+    },
+    {
+      "text": "degrees",
+      "start": 31.335,
+      "end": 31.637,
+      "startFrame": 940,
+      "endFrame": 949
+    },
+    {
+      "text": "Celsius,",
+      "start": 31.683,
+      "end": 32.38,
+      "startFrame": 950,
+      "endFrame": 971
+    },
+    {
+      "text": "still",
+      "start": 32.589,
+      "end": 32.844,
+      "startFrame": 978,
+      "endFrame": 985
+    },
+    {
+      "text": "showing",
+      "start": 32.902,
+      "end": 33.193,
+      "startFrame": 987,
+      "endFrame": 996
+    },
+    {
+      "text": "thirty",
+      "start": 33.251,
+      "end": 33.541,
+      "startFrame": 998,
+      "endFrame": 1006
+    },
+    {
+      "text": "percent.",
+      "start": 33.587,
+      "end": 34.18,
+      "startFrame": 1008,
+      "endFrame": 1025
+    },
+    {
+      "text": "Your",
+      "start": 34.621,
+      "end": 34.806,
+      "startFrame": 1039,
+      "endFrame": 1044
+    },
+    {
+      "text": "phone",
+      "start": 34.853,
+      "end": 35.097,
+      "startFrame": 1046,
+      "endFrame": 1053
+    },
+    {
+      "text": "didn't",
+      "start": 35.132,
+      "end": 35.341,
+      "startFrame": 1054,
+      "endFrame": 1060
+    },
+    {
+      "text": "run",
+      "start": 35.375,
+      "end": 35.503,
+      "startFrame": 1061,
+      "endFrame": 1065
+    },
+    {
+      "text": "out",
+      "start": 35.538,
+      "end": 35.677,
+      "startFrame": 1066,
+      "endFrame": 1070
+    },
+    {
+      "text": "of",
+      "start": 35.724,
+      "end": 35.782,
+      "startFrame": 1072,
+      "endFrame": 1073
+    },
+    {
+      "text": "energy.",
+      "start": 35.84,
+      "end": 36.362,
+      "startFrame": 1075,
+      "endFrame": 1091
+    },
+    {
+      "text": "It",
+      "start": 36.536,
+      "end": 36.664,
+      "startFrame": 1096,
+      "endFrame": 1100
+    },
+    {
+      "text": "ran",
+      "start": 36.71,
+      "end": 36.838,
+      "startFrame": 1101,
+      "endFrame": 1105
+    },
+    {
+      "text": "out",
+      "start": 36.885,
+      "end": 37.001,
+      "startFrame": 1107,
+      "endFrame": 1110
+    },
+    {
+      "text": "of",
+      "start": 37.047,
+      "end": 37.094,
+      "startFrame": 1111,
+      "endFrame": 1113
+    },
+    {
+      "text": "pressure.",
+      "start": 37.152,
+      "end": 37.663,
+      "startFrame": 1115,
+      "endFrame": 1130
+    },
+    {
+      "text": "And",
+      "start": 38.046,
+      "end": 38.185,
+      "startFrame": 1141,
+      "endFrame": 1146
+    },
+    {
+      "text": "that's",
+      "start": 38.231,
+      "end": 38.417,
+      "startFrame": 1147,
+      "endFrame": 1153
+    },
+    {
+      "text": "why...",
+      "start": 38.452,
+      "end": 39.056,
+      "startFrame": 1154,
+      "endFrame": 1172
+    }
+  ]
+}

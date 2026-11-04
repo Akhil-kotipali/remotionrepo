@@ -6,15 +6,24 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@remotion/cli": "4.0.523",
+    "@elevenlabs/elevenlabs-js": "^2.75.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "@remotion/media-utils": "4.0.539",
+    "@remotion/tailwind-v4": "4.0.539",
+    "@remotion/three": "4.0.539",
+    "@types/three": "^0.186.0",
+    "dotenv": "^18.0.9",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "remotion": "4.0.523",
-    "@remotion/tailwind-v4": "4.0.523",
-    "tailwindcss": "4.0.0"
+    "remotion": "4.0.539",
+    "tailwindcss": "4.0.0",
+    "three": "^0.186.1"
   },
   "devDependencies": {
-    "@remotion/eslint-config-flat": "4.0.523",
+    "@remotion/eslint-config-flat": "4.0.539",
     "@types/react": "19.2.7",
     "@types/web": "0.0.166",
     "eslint": "9.19.0",
@@ -25,7 +34,13 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "render:part1": "remotion render Part1 \"output final videos/Everyone_Remembers_Part1_The_Message_Final.mp4\"",
+    "render:part2": "remotion render Part2WithOutro \"output final videos/Everyone_Remembers_Part2_The_Extra_Person_Master_With_Outro.mp4\"",
+    "render:outro": "remotion render Outro \"output final videos/Call_To_Action_Like_And_Subscribe_Outro.mp4\"",
+    "render:experiment": "remotion render Part1Experiment \"output final videos/experimental/Everyone_Remembers_Part1_Pacing_And_ReadTime_Experiment.mp4\"",
+    "generate:tts": "node generate_tts.js",
+    "generate:captions": "node generate_captions.js"
   },
   "sideEffects": [
     "*.css"

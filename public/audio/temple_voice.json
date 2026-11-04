@@ -1,0 +1,1242 @@
+{
+  "audioFile": "audio/temple_voice.mp3",
+  "text": "Modern engineers still cannot explain how a single eighty-ton granite block was lifted onto a temple roof one thousand years ago, without machinery. This is the Brihadeeswarar Temple in Thanjavur, India. Built by Emperor Raja Raja Chola the First, in ten-oh-ten A.D. The tower rises two hundred and sixteen feet. And at the very top sits the Kumbam, a single octagonal stone weighing eighty tons. Here is the engineering problem. No crane existed. No iron framework. The nearest granite quarry was sixty kilometers away. Modern structural analysis shows the load path required perfect weight distribution across twelve tiers of diminishing stone courses. The prevailing theory: a six-kilometer-long earthen ramp, angled at just five degrees, used to drag the stone to the summit with elephants and human labor. But here is what baffles engineers. The temple has zero foundation cracks after one thousand years. The Kumbam stone sits without any mortar or binding agent. Only gravity holds it in place. One thousand years. No modern adhesive. Just perfect geometry. They did not have computers. They had mastery.",
+  "voiceId": "fallback",
+  "fps": 30,
+  "durationInSeconds": 65,
+  "durationInFrames": 1950,
+  "words": [
+    {
+      "text": "Modern",
+      "start": 0,
+      "end": 0.40372670807453415,
+      "startFrame": 0,
+      "endFrame": 10
+    },
+    {
+      "text": "engineers",
+      "start": 0.40372670807453415,
+      "end": 0.9588509316770186,
+      "startFrame": 12,
+      "endFrame": 27
+    },
+    {
+      "text": "still",
+      "start": 0.9588509316770186,
+      "end": 1.312111801242236,
+      "startFrame": 29,
+      "endFrame": 37
+    },
+    {
+      "text": "cannot",
+      "start": 1.312111801242236,
+      "end": 1.7158385093167703,
+      "startFrame": 39,
+      "endFrame": 49
+    },
+    {
+      "text": "explain",
+      "start": 1.7158385093167703,
+      "end": 2.1700310559006213,
+      "startFrame": 51,
+      "endFrame": 63
+    },
+    {
+      "text": "how",
+      "start": 2.1700310559006213,
+      "end": 2.422360248447205,
+      "startFrame": 65,
+      "endFrame": 71
+    },
+    {
+      "text": "a",
+      "start": 2.422360248447205,
+      "end": 2.573757763975155,
+      "startFrame": 73,
+      "endFrame": 75
+    },
+    {
+      "text": "single",
+      "start": 2.573757763975155,
+      "end": 2.9774844720496896,
+      "startFrame": 77,
+      "endFrame": 87
+    },
+    {
+      "text": "eighty-ton",
+      "start": 2.9774844720496896,
+      "end": 3.5830745341614905,
+      "startFrame": 89,
+      "endFrame": 105
+    },
+    {
+      "text": "granite",
+      "start": 3.5830745341614905,
+      "end": 4.037267080745342,
+      "startFrame": 107,
+      "endFrame": 119
+    },
+    {
+      "text": "block",
+      "start": 4.037267080745342,
+      "end": 4.390527950310559,
+      "startFrame": 121,
+      "endFrame": 130
+    },
+    {
+      "text": "was",
+      "start": 4.390527950310559,
+      "end": 4.642857142857142,
+      "startFrame": 132,
+      "endFrame": 137
+    },
+    {
+      "text": "lifted",
+      "start": 4.642857142857142,
+      "end": 5.046583850931676,
+      "startFrame": 139,
+      "endFrame": 149
+    },
+    {
+      "text": "onto",
+      "start": 5.046583850931676,
+      "end": 5.349378881987578,
+      "startFrame": 151,
+      "endFrame": 158
+    },
+    {
+      "text": "a",
+      "start": 5.349378881987578,
+      "end": 5.500776397515527,
+      "startFrame": 160,
+      "endFrame": 163
+    },
+    {
+      "text": "temple",
+      "start": 5.500776397515527,
+      "end": 5.904503105590062,
+      "startFrame": 165,
+      "endFrame": 175
+    },
+    {
+      "text": "roof",
+      "start": 5.904503105590062,
+      "end": 6.207298136645963,
+      "startFrame": 177,
+      "endFrame": 184
+    },
+    {
+      "text": "one",
+      "start": 6.207298136645963,
+      "end": 6.459627329192546,
+      "startFrame": 186,
+      "endFrame": 192
+    },
+    {
+      "text": "thousand",
+      "start": 6.459627329192546,
+      "end": 6.9642857142857135,
+      "startFrame": 194,
+      "endFrame": 207
+    },
+    {
+      "text": "years",
+      "start": 6.9642857142857135,
+      "end": 7.317546583850932,
+      "startFrame": 209,
+      "endFrame": 218
+    },
+    {
+      "text": "ago,",
+      "start": 7.317546583850932,
+      "end": 7.620341614906832,
+      "startFrame": 220,
+      "endFrame": 227
+    },
+    {
+      "text": "without",
+      "start": 7.620341614906832,
+      "end": 8.074534161490684,
+      "startFrame": 229,
+      "endFrame": 240
+    },
+    {
+      "text": "machinery.",
+      "start": 8.074534161490684,
+      "end": 8.680124223602485,
+      "startFrame": 242,
+      "endFrame": 258
+    },
+    {
+      "text": "This",
+      "start": 8.680124223602485,
+      "end": 8.982919254658386,
+      "startFrame": 260,
+      "endFrame": 267
+    },
+    {
+      "text": "is",
+      "start": 8.982919254658386,
+      "end": 9.184782608695652,
+      "startFrame": 269,
+      "endFrame": 274
+    },
+    {
+      "text": "the",
+      "start": 9.184782608695652,
+      "end": 9.437111801242237,
+      "startFrame": 276,
+      "endFrame": 281
+    },
+    {
+      "text": "Brihadeeswarar",
+      "start": 9.437111801242237,
+      "end": 10.244565217391305,
+      "startFrame": 283,
+      "endFrame": 305
+    },
+    {
+      "text": "Temple",
+      "start": 10.244565217391305,
+      "end": 10.648291925465838,
+      "startFrame": 307,
+      "endFrame": 317
+    },
+    {
+      "text": "in",
+      "start": 10.648291925465838,
+      "end": 10.850155279503106,
+      "startFrame": 319,
+      "endFrame": 324
+    },
+    {
+      "text": "Thanjavur,",
+      "start": 10.850155279503106,
+      "end": 11.455745341614907,
+      "startFrame": 326,
+      "endFrame": 342
+    },
+    {
+      "text": "India.",
+      "start": 11.455745341614907,
+      "end": 11.85947204968944,
+      "startFrame": 344,
+      "endFrame": 354
+    },
+    {
+      "text": "Built",
+      "start": 11.85947204968944,
+      "end": 12.212732919254657,
+      "startFrame": 356,
+      "endFrame": 364
+    },
+    {
+      "text": "by",
+      "start": 12.212732919254657,
+      "end": 12.414596273291925,
+      "startFrame": 366,
+      "endFrame": 370
+    },
+    {
+      "text": "Emperor",
+      "start": 12.414596273291925,
+      "end": 12.868788819875776,
+      "startFrame": 372,
+      "endFrame": 384
+    },
+    {
+      "text": "Raja",
+      "start": 12.868788819875776,
+      "end": 13.171583850931677,
+      "startFrame": 386,
+      "endFrame": 393
+    },
+    {
+      "text": "Raja",
+      "start": 13.171583850931677,
+      "end": 13.474378881987576,
+      "startFrame": 395,
+      "endFrame": 402
+    },
+    {
+      "text": "Chola",
+      "start": 13.474378881987576,
+      "end": 13.827639751552796,
+      "startFrame": 404,
+      "endFrame": 413
+    },
+    {
+      "text": "the",
+      "start": 13.827639751552796,
+      "end": 14.07996894409938,
+      "startFrame": 415,
+      "endFrame": 420
+    },
+    {
+      "text": "First,",
+      "start": 14.07996894409938,
+      "end": 14.483695652173912,
+      "startFrame": 422,
+      "endFrame": 433
+    },
+    {
+      "text": "in",
+      "start": 14.483695652173912,
+      "end": 14.68555900621118,
+      "startFrame": 435,
+      "endFrame": 439
+    },
+    {
+      "text": "ten-oh-ten",
+      "start": 14.68555900621118,
+      "end": 15.291149068322982,
+      "startFrame": 441,
+      "endFrame": 457
+    },
+    {
+      "text": "A.D.",
+      "start": 15.291149068322982,
+      "end": 15.593944099378882,
+      "startFrame": 459,
+      "endFrame": 466
+    },
+    {
+      "text": "The",
+      "start": 15.593944099378882,
+      "end": 15.846273291925465,
+      "startFrame": 468,
+      "endFrame": 473
+    },
+    {
+      "text": "tower",
+      "start": 15.846273291925465,
+      "end": 16.199534161490686,
+      "startFrame": 475,
+      "endFrame": 484
+    },
+    {
+      "text": "rises",
+      "start": 16.199534161490686,
+      "end": 16.5527950310559,
+      "startFrame": 486,
+      "endFrame": 495
+    },
+    {
+      "text": "two",
+      "start": 16.5527950310559,
+      "end": 16.805124223602483,
+      "startFrame": 497,
+      "endFrame": 502
+    },
+    {
+      "text": "hundred",
+      "start": 16.805124223602483,
+      "end": 17.259316770186334,
+      "startFrame": 504,
+      "endFrame": 516
+    },
+    {
+      "text": "and",
+      "start": 17.259316770186334,
+      "end": 17.51164596273292,
+      "startFrame": 518,
+      "endFrame": 523
+    },
+    {
+      "text": "sixteen",
+      "start": 17.51164596273292,
+      "end": 17.96583850931677,
+      "startFrame": 525,
+      "endFrame": 537
+    },
+    {
+      "text": "feet.",
+      "start": 17.96583850931677,
+      "end": 18.319099378881987,
+      "startFrame": 539,
+      "endFrame": 548
+    },
+    {
+      "text": "And",
+      "start": 18.319099378881987,
+      "end": 18.57142857142857,
+      "startFrame": 550,
+      "endFrame": 555
+    },
+    {
+      "text": "at",
+      "start": 18.57142857142857,
+      "end": 18.773291925465838,
+      "startFrame": 557,
+      "endFrame": 561
+    },
+    {
+      "text": "the",
+      "start": 18.773291925465838,
+      "end": 19.02562111801242,
+      "startFrame": 563,
+      "endFrame": 569
+    },
+    {
+      "text": "very",
+      "start": 19.02562111801242,
+      "end": 19.328416149068325,
+      "startFrame": 571,
+      "endFrame": 578
+    },
+    {
+      "text": "top",
+      "start": 19.328416149068325,
+      "end": 19.580745341614907,
+      "startFrame": 580,
+      "endFrame": 585
+    },
+    {
+      "text": "sits",
+      "start": 19.580745341614907,
+      "end": 19.883540372670808,
+      "startFrame": 587,
+      "endFrame": 595
+    },
+    {
+      "text": "the",
+      "start": 19.883540372670808,
+      "end": 20.13586956521739,
+      "startFrame": 597,
+      "endFrame": 602
+    },
+    {
+      "text": "Kumbam,",
+      "start": 20.13586956521739,
+      "end": 20.59006211180124,
+      "startFrame": 604,
+      "endFrame": 616
+    },
+    {
+      "text": "a",
+      "start": 20.59006211180124,
+      "end": 20.741459627329192,
+      "startFrame": 618,
+      "endFrame": 620
+    },
+    {
+      "text": "single",
+      "start": 20.741459627329192,
+      "end": 21.14518633540373,
+      "startFrame": 622,
+      "endFrame": 632
+    },
+    {
+      "text": "octagonal",
+      "start": 21.14518633540373,
+      "end": 21.700310559006212,
+      "startFrame": 634,
+      "endFrame": 649
+    },
+    {
+      "text": "stone",
+      "start": 21.700310559006212,
+      "end": 22.05357142857143,
+      "startFrame": 651,
+      "endFrame": 660
+    },
+    {
+      "text": "weighing",
+      "start": 22.05357142857143,
+      "end": 22.558229813664596,
+      "startFrame": 662,
+      "endFrame": 675
+    },
+    {
+      "text": "eighty",
+      "start": 22.558229813664596,
+      "end": 22.961956521739133,
+      "startFrame": 677,
+      "endFrame": 687
+    },
+    {
+      "text": "tons.",
+      "start": 22.961956521739133,
+      "end": 23.315217391304348,
+      "startFrame": 689,
+      "endFrame": 697
+    },
+    {
+      "text": "Here",
+      "start": 23.315217391304348,
+      "end": 23.61801242236025,
+      "startFrame": 699,
+      "endFrame": 707
+    },
+    {
+      "text": "is",
+      "start": 23.61801242236025,
+      "end": 23.819875776397517,
+      "startFrame": 709,
+      "endFrame": 713
+    },
+    {
+      "text": "the",
+      "start": 23.819875776397517,
+      "end": 24.0722049689441,
+      "startFrame": 715,
+      "endFrame": 720
+    },
+    {
+      "text": "engineering",
+      "start": 24.0722049689441,
+      "end": 24.72826086956522,
+      "startFrame": 722,
+      "endFrame": 740
+    },
+    {
+      "text": "problem.",
+      "start": 24.72826086956522,
+      "end": 25.232919254658384,
+      "startFrame": 742,
+      "endFrame": 755
+    },
+    {
+      "text": "No",
+      "start": 25.232919254658384,
+      "end": 25.434782608695652,
+      "startFrame": 757,
+      "endFrame": 761
+    },
+    {
+      "text": "crane",
+      "start": 25.434782608695652,
+      "end": 25.788043478260867,
+      "startFrame": 763,
+      "endFrame": 772
+    },
+    {
+      "text": "existed.",
+      "start": 25.788043478260867,
+      "end": 26.292701863354036,
+      "startFrame": 774,
+      "endFrame": 787
+    },
+    {
+      "text": "No",
+      "start": 26.292701863354036,
+      "end": 26.494565217391305,
+      "startFrame": 789,
+      "endFrame": 793
+    },
+    {
+      "text": "iron",
+      "start": 26.494565217391305,
+      "end": 26.797360248447205,
+      "startFrame": 795,
+      "endFrame": 802
+    },
+    {
+      "text": "framework.",
+      "start": 26.797360248447205,
+      "end": 27.402950310559003,
+      "startFrame": 804,
+      "endFrame": 820
+    },
+    {
+      "text": "The",
+      "start": 27.402950310559003,
+      "end": 27.655279503105593,
+      "startFrame": 822,
+      "endFrame": 828
+    },
+    {
+      "text": "nearest",
+      "start": 27.655279503105593,
+      "end": 28.109472049689444,
+      "startFrame": 830,
+      "endFrame": 841
+    },
+    {
+      "text": "granite",
+      "start": 28.109472049689444,
+      "end": 28.563664596273295,
+      "startFrame": 843,
+      "endFrame": 855
+    },
+    {
+      "text": "quarry",
+      "start": 28.563664596273295,
+      "end": 28.967391304347824,
+      "startFrame": 857,
+      "endFrame": 867
+    },
+    {
+      "text": "was",
+      "start": 28.967391304347824,
+      "end": 29.219720496894407,
+      "startFrame": 869,
+      "endFrame": 875
+    },
+    {
+      "text": "sixty",
+      "start": 29.219720496894407,
+      "end": 29.572981366459626,
+      "startFrame": 877,
+      "endFrame": 885
+    },
+    {
+      "text": "kilometers",
+      "start": 29.572981366459626,
+      "end": 30.17857142857143,
+      "startFrame": 887,
+      "endFrame": 903
+    },
+    {
+      "text": "away.",
+      "start": 30.17857142857143,
+      "end": 30.531832298136646,
+      "startFrame": 905,
+      "endFrame": 914
+    },
+    {
+      "text": "Modern",
+      "start": 30.531832298136646,
+      "end": 30.93555900621118,
+      "startFrame": 916,
+      "endFrame": 926
+    },
+    {
+      "text": "structural",
+      "start": 30.93555900621118,
+      "end": 31.541149068322984,
+      "startFrame": 928,
+      "endFrame": 944
+    },
+    {
+      "text": "analysis",
+      "start": 31.541149068322984,
+      "end": 32.04580745341615,
+      "startFrame": 946,
+      "endFrame": 959
+    },
+    {
+      "text": "shows",
+      "start": 32.04580745341615,
+      "end": 32.39906832298137,
+      "startFrame": 961,
+      "endFrame": 970
+    },
+    {
+      "text": "the",
+      "start": 32.39906832298137,
+      "end": 32.65139751552795,
+      "startFrame": 972,
+      "endFrame": 978
+    },
+    {
+      "text": "load",
+      "start": 32.65139751552795,
+      "end": 32.95419254658385,
+      "startFrame": 980,
+      "endFrame": 987
+    },
+    {
+      "text": "path",
+      "start": 32.95419254658385,
+      "end": 33.256987577639755,
+      "startFrame": 989,
+      "endFrame": 996
+    },
+    {
+      "text": "required",
+      "start": 33.256987577639755,
+      "end": 33.76164596273292,
+      "startFrame": 998,
+      "endFrame": 1011
+    },
+    {
+      "text": "perfect",
+      "start": 33.76164596273292,
+      "end": 34.21583850931677,
+      "startFrame": 1013,
+      "endFrame": 1024
+    },
+    {
+      "text": "weight",
+      "start": 34.21583850931677,
+      "end": 34.619565217391305,
+      "startFrame": 1026,
+      "endFrame": 1037
+    },
+    {
+      "text": "distribution",
+      "start": 34.619565217391305,
+      "end": 35.326086956521735,
+      "startFrame": 1039,
+      "endFrame": 1058
+    },
+    {
+      "text": "across",
+      "start": 35.326086956521735,
+      "end": 35.72981366459627,
+      "startFrame": 1060,
+      "endFrame": 1070
+    },
+    {
+      "text": "twelve",
+      "start": 35.72981366459627,
+      "end": 36.13354037267081,
+      "startFrame": 1072,
+      "endFrame": 1082
+    },
+    {
+      "text": "tiers",
+      "start": 36.13354037267081,
+      "end": 36.48680124223603,
+      "startFrame": 1084,
+      "endFrame": 1093
+    },
+    {
+      "text": "of",
+      "start": 36.48680124223603,
+      "end": 36.68866459627329,
+      "startFrame": 1095,
+      "endFrame": 1099
+    },
+    {
+      "text": "diminishing",
+      "start": 36.68866459627329,
+      "end": 37.34472049689441,
+      "startFrame": 1101,
+      "endFrame": 1118
+    },
+    {
+      "text": "stone",
+      "start": 37.34472049689441,
+      "end": 37.69798136645963,
+      "startFrame": 1120,
+      "endFrame": 1129
+    },
+    {
+      "text": "courses.",
+      "start": 37.69798136645963,
+      "end": 38.202639751552795,
+      "startFrame": 1131,
+      "endFrame": 1144
+    },
+    {
+      "text": "The",
+      "start": 38.202639751552795,
+      "end": 38.45496894409938,
+      "startFrame": 1146,
+      "endFrame": 1152
+    },
+    {
+      "text": "prevailing",
+      "start": 38.45496894409938,
+      "end": 39.060559006211186,
+      "startFrame": 1154,
+      "endFrame": 1170
+    },
+    {
+      "text": "theory:",
+      "start": 39.060559006211186,
+      "end": 39.51475155279503,
+      "startFrame": 1172,
+      "endFrame": 1183
+    },
+    {
+      "text": "a",
+      "start": 39.51475155279503,
+      "end": 39.66614906832298,
+      "startFrame": 1185,
+      "endFrame": 1188
+    },
+    {
+      "text": "six-kilometer-long",
+      "start": 39.66614906832298,
+      "end": 40.67546583850932,
+      "startFrame": 1190,
+      "endFrame": 1218
+    },
+    {
+      "text": "earthen",
+      "start": 40.67546583850932,
+      "end": 41.129658385093165,
+      "startFrame": 1220,
+      "endFrame": 1232
+    },
+    {
+      "text": "ramp,",
+      "start": 41.129658385093165,
+      "end": 41.482919254658384,
+      "startFrame": 1234,
+      "endFrame": 1242
+    },
+    {
+      "text": "angled",
+      "start": 41.482919254658384,
+      "end": 41.88664596273292,
+      "startFrame": 1244,
+      "endFrame": 1255
+    },
+    {
+      "text": "at",
+      "start": 41.88664596273292,
+      "end": 42.088509316770185,
+      "startFrame": 1257,
+      "endFrame": 1261
+    },
+    {
+      "text": "just",
+      "start": 42.088509316770185,
+      "end": 42.391304347826086,
+      "startFrame": 1263,
+      "endFrame": 1270
+    },
+    {
+      "text": "five",
+      "start": 42.391304347826086,
+      "end": 42.694099378881994,
+      "startFrame": 1272,
+      "endFrame": 1279
+    },
+    {
+      "text": "degrees,",
+      "start": 42.694099378881994,
+      "end": 43.19875776397516,
+      "startFrame": 1281,
+      "endFrame": 1294
+    },
+    {
+      "text": "used",
+      "start": 43.19875776397516,
+      "end": 43.50155279503105,
+      "startFrame": 1296,
+      "endFrame": 1303
+    },
+    {
+      "text": "to",
+      "start": 43.50155279503105,
+      "end": 43.703416149068325,
+      "startFrame": 1305,
+      "endFrame": 1309
+    },
+    {
+      "text": "drag",
+      "start": 43.703416149068325,
+      "end": 44.00621118012422,
+      "startFrame": 1311,
+      "endFrame": 1318
+    },
+    {
+      "text": "the",
+      "start": 44.00621118012422,
+      "end": 44.25854037267081,
+      "startFrame": 1320,
+      "endFrame": 1326
+    },
+    {
+      "text": "stone",
+      "start": 44.25854037267081,
+      "end": 44.61180124223603,
+      "startFrame": 1328,
+      "endFrame": 1336
+    },
+    {
+      "text": "to",
+      "start": 44.61180124223603,
+      "end": 44.81366459627329,
+      "startFrame": 1338,
+      "endFrame": 1342
+    },
+    {
+      "text": "the",
+      "start": 44.81366459627329,
+      "end": 45.065993788819874,
+      "startFrame": 1344,
+      "endFrame": 1350
+    },
+    {
+      "text": "summit",
+      "start": 45.065993788819874,
+      "end": 45.46972049689441,
+      "startFrame": 1352,
+      "endFrame": 1362
+    },
+    {
+      "text": "with",
+      "start": 45.46972049689441,
+      "end": 45.772515527950304,
+      "startFrame": 1364,
+      "endFrame": 1371
+    },
+    {
+      "text": "elephants",
+      "start": 45.772515527950304,
+      "end": 46.327639751552795,
+      "startFrame": 1373,
+      "endFrame": 1388
+    },
+    {
+      "text": "and",
+      "start": 46.327639751552795,
+      "end": 46.57996894409938,
+      "startFrame": 1390,
+      "endFrame": 1395
+    },
+    {
+      "text": "human",
+      "start": 46.57996894409938,
+      "end": 46.933229813664596,
+      "startFrame": 1397,
+      "endFrame": 1406
+    },
+    {
+      "text": "labor.",
+      "start": 46.933229813664596,
+      "end": 47.33695652173913,
+      "startFrame": 1408,
+      "endFrame": 1418
+    },
+    {
+      "text": "But",
+      "start": 47.33695652173913,
+      "end": 47.58928571428571,
+      "startFrame": 1420,
+      "endFrame": 1426
+    },
+    {
+      "text": "here",
+      "start": 47.58928571428571,
+      "end": 47.892080745341616,
+      "startFrame": 1428,
+      "endFrame": 1435
+    },
+    {
+      "text": "is",
+      "start": 47.892080745341616,
+      "end": 48.09394409937889,
+      "startFrame": 1437,
+      "endFrame": 1441
+    },
+    {
+      "text": "what",
+      "start": 48.09394409937889,
+      "end": 48.39673913043478,
+      "startFrame": 1443,
+      "endFrame": 1450
+    },
+    {
+      "text": "baffles",
+      "start": 48.39673913043478,
+      "end": 48.85093167701863,
+      "startFrame": 1452,
+      "endFrame": 1464
+    },
+    {
+      "text": "engineers.",
+      "start": 48.85093167701863,
+      "end": 49.45652173913044,
+      "startFrame": 1466,
+      "endFrame": 1482
+    },
+    {
+      "text": "The",
+      "start": 49.45652173913044,
+      "end": 49.70885093167702,
+      "startFrame": 1484,
+      "endFrame": 1489
+    },
+    {
+      "text": "temple",
+      "start": 49.70885093167702,
+      "end": 50.11257763975155,
+      "startFrame": 1491,
+      "endFrame": 1501
+    },
+    {
+      "text": "has",
+      "start": 50.11257763975155,
+      "end": 50.36490683229814,
+      "startFrame": 1503,
+      "endFrame": 1509
+    },
+    {
+      "text": "zero",
+      "start": 50.36490683229814,
+      "end": 50.66770186335403,
+      "startFrame": 1511,
+      "endFrame": 1518
+    },
+    {
+      "text": "foundation",
+      "start": 50.66770186335403,
+      "end": 51.27329192546584,
+      "startFrame": 1520,
+      "endFrame": 1536
+    },
+    {
+      "text": "cracks",
+      "start": 51.27329192546584,
+      "end": 51.67701863354037,
+      "startFrame": 1538,
+      "endFrame": 1548
+    },
+    {
+      "text": "after",
+      "start": 51.67701863354037,
+      "end": 52.03027950310559,
+      "startFrame": 1550,
+      "endFrame": 1559
+    },
+    {
+      "text": "one",
+      "start": 52.03027950310559,
+      "end": 52.28260869565217,
+      "startFrame": 1561,
+      "endFrame": 1566
+    },
+    {
+      "text": "thousand",
+      "start": 52.28260869565217,
+      "end": 52.787267080745345,
+      "startFrame": 1568,
+      "endFrame": 1582
+    },
+    {
+      "text": "years.",
+      "start": 52.787267080745345,
+      "end": 53.190993788819874,
+      "startFrame": 1584,
+      "endFrame": 1594
+    },
+    {
+      "text": "The",
+      "start": 53.190993788819874,
+      "end": 53.44332298136646,
+      "startFrame": 1596,
+      "endFrame": 1601
+    },
+    {
+      "text": "Kumbam",
+      "start": 53.44332298136646,
+      "end": 53.84704968944099,
+      "startFrame": 1603,
+      "endFrame": 1613
+    },
+    {
+      "text": "stone",
+      "start": 53.84704968944099,
+      "end": 54.20031055900621,
+      "startFrame": 1615,
+      "endFrame": 1624
+    },
+    {
+      "text": "sits",
+      "start": 54.20031055900621,
+      "end": 54.50310559006211,
+      "startFrame": 1626,
+      "endFrame": 1633
+    },
+    {
+      "text": "without",
+      "start": 54.50310559006211,
+      "end": 54.95729813664597,
+      "startFrame": 1635,
+      "endFrame": 1647
+    },
+    {
+      "text": "any",
+      "start": 54.95729813664597,
+      "end": 55.20962732919254,
+      "startFrame": 1649,
+      "endFrame": 1654
+    },
+    {
+      "text": "mortar",
+      "start": 55.20962732919254,
+      "end": 55.61335403726708,
+      "startFrame": 1656,
+      "endFrame": 1666
+    },
+    {
+      "text": "or",
+      "start": 55.61335403726708,
+      "end": 55.81521739130435,
+      "startFrame": 1668,
+      "endFrame": 1672
+    },
+    {
+      "text": "binding",
+      "start": 55.81521739130435,
+      "end": 56.2694099378882,
+      "startFrame": 1674,
+      "endFrame": 1686
+    },
+    {
+      "text": "agent.",
+      "start": 56.2694099378882,
+      "end": 56.673136645962735,
+      "startFrame": 1688,
+      "endFrame": 1698
+    },
+    {
+      "text": "Only",
+      "start": 56.673136645962735,
+      "end": 56.97593167701863,
+      "startFrame": 1700,
+      "endFrame": 1707
+    },
+    {
+      "text": "gravity",
+      "start": 56.97593167701863,
+      "end": 57.43012422360248,
+      "startFrame": 1709,
+      "endFrame": 1721
+    },
+    {
+      "text": "holds",
+      "start": 57.43012422360248,
+      "end": 57.7833850931677,
+      "startFrame": 1723,
+      "endFrame": 1732
+    },
+    {
+      "text": "it",
+      "start": 57.7833850931677,
+      "end": 57.98524844720497,
+      "startFrame": 1734,
+      "endFrame": 1738
+    },
+    {
+      "text": "in",
+      "start": 57.98524844720497,
+      "end": 58.18711180124224,
+      "startFrame": 1740,
+      "endFrame": 1744
+    },
+    {
+      "text": "place.",
+      "start": 58.18711180124224,
+      "end": 58.59083850931677,
+      "startFrame": 1746,
+      "endFrame": 1756
+    },
+    {
+      "text": "One",
+      "start": 58.59083850931677,
+      "end": 58.84316770186335,
+      "startFrame": 1758,
+      "endFrame": 1763
+    },
+    {
+      "text": "thousand",
+      "start": 58.84316770186335,
+      "end": 59.347826086956516,
+      "startFrame": 1765,
+      "endFrame": 1778
+    },
+    {
+      "text": "years.",
+      "start": 59.347826086956516,
+      "end": 59.75155279503105,
+      "startFrame": 1780,
+      "endFrame": 1791
+    },
+    {
+      "text": "No",
+      "start": 59.75155279503105,
+      "end": 59.953416149068325,
+      "startFrame": 1793,
+      "endFrame": 1797
+    },
+    {
+      "text": "modern",
+      "start": 59.953416149068325,
+      "end": 60.35714285714286,
+      "startFrame": 1799,
+      "endFrame": 1809
+    },
+    {
+      "text": "adhesive.",
+      "start": 60.35714285714286,
+      "end": 60.912267080745345,
+      "startFrame": 1811,
+      "endFrame": 1825
+    },
+    {
+      "text": "Just",
+      "start": 60.912267080745345,
+      "end": 61.215062111801245,
+      "startFrame": 1827,
+      "endFrame": 1834
+    },
+    {
+      "text": "perfect",
+      "start": 61.215062111801245,
+      "end": 61.66925465838509,
+      "startFrame": 1836,
+      "endFrame": 1848
+    },
+    {
+      "text": "geometry.",
+      "start": 61.66925465838509,
+      "end": 62.224378881987576,
+      "startFrame": 1850,
+      "endFrame": 1865
+    },
+    {
+      "text": "They",
+      "start": 62.224378881987576,
+      "end": 62.527173913043484,
+      "startFrame": 1867,
+      "endFrame": 1874
+    },
+    {
+      "text": "did",
+      "start": 62.527173913043484,
+      "end": 62.77950310559006,
+      "startFrame": 1876,
+      "endFrame": 1881
+    },
+    {
+      "text": "not",
+      "start": 62.77950310559006,
+      "end": 63.03183229813665,
+      "startFrame": 1883,
+      "endFrame": 1889
+    },
+    {
+      "text": "have",
+      "start": 63.03183229813665,
+      "end": 63.33462732919254,
+      "startFrame": 1891,
+      "endFrame": 1898
+    },
+    {
+      "text": "computers.",
+      "start": 63.33462732919254,
+      "end": 63.94021739130435,
+      "startFrame": 1900,
+      "endFrame": 1916
+    },
+    {
+      "text": "They",
+      "start": 63.94021739130435,
+      "end": 64.24301242236025,
+      "startFrame": 1918,
+      "endFrame": 1925
+    },
+    {
+      "text": "had",
+      "start": 64.24301242236025,
+      "end": 64.49534161490683,
+      "startFrame": 1927,
+      "endFrame": 1933
+    },
+    {
+      "text": "mastery.",
+      "start": 64.49534161490683,
+      "end": 65,
+      "startFrame": 1935,
+      "endFrame": 1948
+    }
+  ]
+}

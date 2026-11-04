@@ -1,0 +1,19 @@
+1
+00:00:00,100 --> 00:00:02,149
+Welcome to Remotion with Eleven Labs
+
+2
+00:00:02,200 --> 00:00:03,200
+and 3D animation.
+
+3
+00:00:03,250 --> 00:00:05,299
+Every single word you see is
+
+4
+00:00:05,349 --> 00:00:07,400
+synchronized perfectly down to the exact
+
+5
+00:00:07,450 --> 00:00:08,099
+video frame.

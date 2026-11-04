@@ -1,7 +1,66 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+dist/
 .DS_Store
-.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Ignore the output video from Git but not videos you import into src/.
+# Environment & Secrets
+.env
+.env.local
+.env*.local
+
+# Remotion & Video Render Outputs (NO VIDEOS)
+out/
 out
+output final videos/
+output final videos.zip
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.flv
+*.wmv
+*.m4v
+
+# NO IMAGES (as explicitly requested: "not videos or images")
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.psd
+*.ai
+
+# Package Archives & Test Ingestion Dirs
+packages/
+public/packages/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary / Generated Audio Dirs & Files
+tmp_*
+tmp_audio_42s/
+tmp_demo_audio/
+tmp_package_audio/
+test_sample.mp3
+
+# Scratch / Auxiliary Downloaded Media Folders
+video backgrounds/
+sound effects/
+part 1 files/
+part 2 files/
+part 3 files/
+3d assests/
+new video project/
+cinematic-remotion-characters/
+video 1 script and code/
