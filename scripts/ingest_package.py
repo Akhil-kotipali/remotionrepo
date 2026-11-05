@@ -32,7 +32,7 @@ class SecurityError(Exception):
     """Raised when an unsafe path traversal or security violation is detected."""
     pass
 
-SUPPORTED_SCENE_TYPES = {"dossier", "showcase3d", "3d_showcase", "dialogue", "infographic"}
+SUPPORTED_SCENE_TYPES = {"dossier", "showcase3d", "3d_showcase", "dialogue", "infographic", "mirror_horror"}
 
 def sanitize_id(raw_id):
     """Sanitizes an episode ID to safe filename characters."""
@@ -179,7 +179,7 @@ def resolve_assets(package_dir, manifest, asset_manifest=None):
                         "affectedScene": sc_id,
                         "description": f"3D GLB model for {sc_id}",
                     })
-            elif sc.get("type") == "dialogue":
+            elif sc.get("type") in ("dialogue", "mirror_horror"):
                 src = sc.get("backgroundSrc") or sc.get("backgroundPlate")
                 if src:
                     declared_assets.append({
@@ -189,7 +189,7 @@ def resolve_assets(package_dir, manifest, asset_manifest=None):
                         "packagePath": src,
                         "expectedFilename": os.path.basename(src),
                         "affectedScene": sc_id,
-                        "description": f"Dialogue background plate for {sc_id}",
+                        "description": f"{sc.get('type').replace('_', ' ').title()} background plate for {sc_id}",
                     })
 
         for cue in manifest.get("sfxCues", []):
@@ -264,6 +264,11 @@ def resolve_assets(package_dir, manifest, asset_manifest=None):
         pkg_path = asset.get("packagePath", "")
         exp_file = asset.get("expectedFilename") or os.path.basename(pkg_path)
         is_required = asset.get("required", True)
+
+        # Assets implemented natively in Remotion / React code do not require external files
+        if asset.get("status") == "implemented_in_code" or asset.get("type") in ("procedural_rig", "code"):
+            resolved[aid] = "implemented_in_code"
+            continue
 
         # 1. Check inside package directory
         local_pkg_path = os.path.join(package_dir, pkg_path)
@@ -378,7 +383,7 @@ def assemble_episode_props(package_dir, manifest, resolved_assets, audio_result=
             base = os.path.basename(m_path)
             sc_copy["modelPath"] = resolved_assets.get(m_path, resolved_assets.get(base, m_path))
             sc_copy["modelSrc"] = sc_copy["modelPath"]
-        elif sc_type == "dialogue":
+        elif sc_type in ("dialogue", "mirror_horror"):
             bg_path = sc_copy.get("backgroundSrc") or sc_copy.get("backgroundPlate", "")
             base = os.path.basename(bg_path)
             sc_copy["backgroundPlate"] = resolved_assets.get(bg_path, resolved_assets.get(base, bg_path))
@@ -420,6 +425,18 @@ def assemble_episode_props(package_dir, manifest, resolved_assets, audio_result=
         cue_copy["sound"] = resolved_sound
         sfx_cues.append(cue_copy)
 
+    # Drone Audio Track Resolution
+    raw_drone = manifest.get("droneAudioTrack") or manifest.get("droneAudioPath", "audio/sfx/drone.wav")
+    base_drone = os.path.basename(raw_drone)
+    resolved_drone = resolved_assets.get(raw_drone, resolved_assets.get(base_drone, resolved_assets.get(f"assets/sfx/{base_drone}")))
+    if not resolved_drone:
+        if os.path.exists(os.path.join(PUBLIC_DIR, "audio", "sfx", base_drone)):
+            resolved_drone = f"audio/sfx/{base_drone}"
+        elif os.path.exists(os.path.join(package_dir, "assets", "sfx", base_drone)):
+            resolved_drone = os.path.relpath(os.path.join(package_dir, "assets", "sfx", base_drone), PUBLIC_DIR).replace("\\", "/")
+        else:
+            resolved_drone = "audio/sfx/drone.wav"
+
     episode_config = {
         "id": episode_id,
         "title": title,
@@ -431,7 +448,7 @@ def assemble_episode_props(package_dir, manifest, resolved_assets, audio_result=
         "theme": theme,
         "voiceoverAudioPath": voiceover_path,
         "audioTrack": voiceover_path,
-        "droneAudioPath": manifest.get("droneAudioTrack", manifest.get("droneAudioPath", "audio/sfx/drone.wav")),
+        "droneAudioPath": resolved_drone,
         "droneVolume": manifest.get("droneVolume", 0.25),
         "enableSeamlessLoop": manifest.get("enableSeamlessLoop", True),
         "loopRewatchPrompt": manifest.get("loopRewatchPrompt", "▲ REWATCH: CHECK THE DETAILS"),

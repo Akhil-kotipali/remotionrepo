@@ -140,6 +140,45 @@ export interface InfographicSceneConfig {
   layout?: "grid" | "vertical_cards" | "tab_bar";
 }
 
+export interface MirrorHorrorSceneConfig {
+  type: "mirror_horror";
+  headerPill?: string;
+  title?: string;
+  subtitle?: string;
+  backgroundSrc?: string;
+  backgroundPlate?: string;
+  realCharacter?: {
+    id: string;
+    position?: { x: number; y: number };
+    scale?: number;
+    facing?: "left" | "right";
+    pose?: "idle" | "walking_away" | "frozen" | "stepping_back" | string;
+    emotion?: string;
+  };
+  reflectionCharacter?: {
+    id: string;
+    position?: { x: number; y: number };
+    scale?: number;
+    facing?: "left" | "right";
+    pose?: "idle" | "delayed_turn" | "creepy_smile" | "knocking_glass" | "pressing_glass" | string;
+    emotion?: string;
+    knockingFrames?: number[];
+    whisperSubtext?: string;
+  };
+  mirrorFrame?: {
+    x: number;
+    y: number;
+    w: number;
+    h: number;
+  };
+  cameraMotion?: {
+    fromScale: number;
+    toScale: number;
+    fromY?: number;
+    toY?: number;
+  };
+}
+
 export type SceneConfig = {
   id: string;
   fromFrame?: number;
@@ -150,6 +189,7 @@ export type SceneConfig = {
   | Showcase3DSceneConfig
   | DialogueSceneConfig
   | InfographicSceneConfig
+  | MirrorHorrorSceneConfig
 );
 
 export interface EpisodeConfig {

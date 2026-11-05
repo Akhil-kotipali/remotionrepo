@@ -5,6 +5,7 @@ import { DossierScene } from "./scenes/DossierScene";
 import { Showcase3DScene } from "./scenes/Showcase3DScene";
 import { DialogueScene } from "./scenes/DialogueScene";
 import { InfographicScene } from "./scenes/InfographicScene";
+import { MirrorHorrorScene } from "./scenes/MirrorHorrorScene";
 import { UniversalCaptions } from "./UniversalCaptions";
 import { ColorWash, Grain, Vignette } from "../part3/fx/Overlays";
 
@@ -74,6 +75,15 @@ export const UniversalEpisode: React.FC<UniversalEpisodeProps> = ({ config }) =>
                 config={scene}
                 localFrame={localFrame}
                 durationFrames={scene.durationFrames}
+              />
+            )}
+            {scene.type === "mirror_horror" && (
+              <MirrorHorrorScene
+                config={scene}
+                localFrame={localFrame}
+                durationFrames={scene.durationFrames}
+                width={config.width}
+                height={config.height}
               />
             )}
           </AbsoluteFill>

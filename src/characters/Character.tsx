@@ -45,11 +45,15 @@ export const Character: React.FC<CharacterProps> = ({
   const breath = animate ? Math.sin(t * 0.09) * 1.4 : 0;
   const blink = animate && (t % 137 < 4 || (t + 43) % 191 < 4);
 
-  const armPoseLeft = pose === "armsCrossed" ? "cross" : "idle";
+  const armPoseLeft =
+    pose === "armsCrossed" ? "cross" :
+    pose === "pressingGlass" ? "pressingGlass" : "idle";
   const armPoseRight =
     pose === "phone" ? "phone" :
     pose === "camera" ? "camera" :
-    pose === "armsCrossed" ? "cross" : "idle";
+    pose === "armsCrossed" ? "cross" :
+    pose === "knocking" ? "knocking" :
+    pose === "pressingGlass" ? "pressingGlass" : "idle";
 
   return (
     <svg

@@ -101,6 +101,9 @@ export function Head({
     scared: "M93 74 Q103 66 112 74 M130 74 Q140 66 149 74",
     relieved: "M93 82 Q103 78 112 82 M130 82 Q140 78 149 82",
     happy: "M93 82 Q103 76 112 82 M130 82 Q140 76 149 82",
+    creepySmile: "M92 70 Q102 58 112 72 M130 72 Q140 58 150 70",
+    hollowScared: "M92 73 Q102 62 112 73 M130 73 Q140 62 150 73",
+    frozenTerror: "M91 75 L112 75 M130 75 L151 75",
   };
   const mouth: Record<Emotion, string> = {
     neutral: "M111 120 Q120 123 130 120",
@@ -110,6 +113,9 @@ export function Head({
     scared: "M116 118 Q120 132 125 118",
     relieved: "M111 119 Q120 124 130 119",
     happy: "M108 117 Q120 135 133 117",
+    creepySmile: "M102 114 Q120 156 138 114 Q120 126 102 114 Z",
+    hollowScared: "M114 116 Q120 138 126 116",
+    frozenTerror: "M110 123 L130 123",
   };
 
   return (
@@ -246,7 +252,7 @@ export function Legs({
 export function Arm({
   d, side, angle = 0, pose = "idle",
 }: {
-  d: CharacterDesign; side: "left" | "right"; angle?: number; elbow?: number; pose?: "idle" | "phone" | "camera" | "cross";
+  d: CharacterDesign; side: "left" | "right"; angle?: number; elbow?: number; pose?: "idle" | "phone" | "camera" | "cross" | "knocking" | "pressingGlass";
 }) {
   const isLeft = side === "left";
   const isRight = side === "right";
@@ -255,6 +261,28 @@ export function Arm({
   const armColor = d.jacket;
   const skin = d.skin;
   const handX = isLeft ? -1 : 1;
+
+  if (pose === "knocking") {
+    return (
+      <g transform={`translate(${shoulderX} ${shoulderY}) rotate(${isLeft ? -75 : 75}) ${isLeft ? "scale(-1 1)" : ""}`}>
+        <path d="M0 0 Q-10 25 -15 48 L-22 68 L-38 60 L-26 28 L-10 -2 Z" fill={armColor} />
+        <ellipse cx="-28" cy="65" rx="11" ry="10" fill={skin} />
+        <circle cx="-32" cy="62" r="3.2" fill={d.skinShadow} />
+        <circle cx="-28" cy="64" r="3.2" fill={d.skinShadow} />
+        <circle cx="-24" cy="67" r="3.2" fill={d.skinShadow} />
+      </g>
+    );
+  }
+
+  if (pose === "pressingGlass") {
+    return (
+      <g transform={`translate(${shoulderX} ${shoulderY}) rotate(${isLeft ? -50 : 50}) ${isLeft ? "scale(-1 1)" : ""}`}>
+        <path d="M0 0 Q-8 26 -12 55 L-18 78 L-34 72 L-24 35 L-10 -2 Z" fill={armColor} />
+        <ellipse cx="-24" cy="80" rx="13" ry="16" fill={skin} />
+        <path d="M-30 75 L-30 62 M-25 73 L-25 58 M-20 73 L-20 59 M-15 76 L-15 64" stroke={d.skinShadow} strokeWidth="2.5" strokeLinecap="round" />
+      </g>
+    );
+  }
 
   if (pose === "cross") {
     return (

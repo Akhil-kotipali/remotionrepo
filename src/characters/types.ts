@@ -1,9 +1,28 @@
 import React from "react";
 
-export type CharacterId = "arjun" | "dev" | "rahul" | "meera" | "kabir" | "nisha";
-export type Emotion = "neutral" | "worried" | "angry" | "sad" | "scared" | "relieved" | "happy";
-export type Pose = "idle" | "walking" | "talking" | "phone" | "camera" | "armsCrossed";
-export type View = "front" | "threeQuarter" | "side";
+export type CharacterId = "arjun" | "dev" | "rahul" | "meera" | "kabir" | "nisha" | "reflection";
+export type Emotion =
+  | "neutral"
+  | "worried"
+  | "angry"
+  | "sad"
+  | "scared"
+  | "relieved"
+  | "happy"
+  | "creepySmile"
+  | "hollowScared"
+  | "frozenTerror";
+export type Pose =
+  | "idle"
+  | "walking"
+  | "talking"
+  | "phone"
+  | "camera"
+  | "armsCrossed"
+  | "knocking"
+  | "pressingGlass"
+  | "standingFrozen";
+export type View = "front" | "threeQuarter" | "side" | "back";
 export type Gaze = "center" | "left" | "right" | "up" | "down";
 
 export type CharacterProps = {

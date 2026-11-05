@@ -49,6 +49,14 @@ export const DESIGNS: Record<CharacterId, CharacterDesign> = {
     pants: "#30303A", shoes: "#1A1818", accent: "#E5C77B",
     build: "average", height: 0.98, hairStyle: "bob",
   },
+  reflection: {
+    id: "reflection", name: "The Reflection",
+    skin: "#949DA8", skinLight: "#B8C2CC", skinShadow: "#4E5865",
+    hair: "#0B0D11", hairHighlight: "#1F2937",
+    shirt: "#111827", jacket: "#1E293B", jacketLight: "#334155",
+    pants: "#0F172A", shoes: "#030712", accent: "#38BDF8",
+    build: "slim", height: 1, hairStyle: "wavy",
+  },
 };
 
 export const CHARACTER_IDS: CharacterId[] = [
