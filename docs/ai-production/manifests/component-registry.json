@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-11-05T08:55:00",
+  "components": [
+    {
+      "name": "UniversalEpisode",
+      "type": "remotion_composition",
+      "path": "src/engine/UniversalEpisode.tsx",
+      "export": "UniversalEpisode",
+      "status": "confirmed_used",
+      "purpose": "Master timeline conductor that sequences scenes, mixes audio layers, and renders loop bridges",
+      "props": {
+        "required": ["config"],
+        "optional": []
+      }
+    },
+    {
+      "name": "UniversalCaptions",
+      "type": "caption_overlay",
+      "path": "src/engine/UniversalCaptions.tsx",
+      "export": "UniversalCaptions",
+      "status": "confirmed_used",
+      "purpose": "Word-level kinetic captions with high-visibility yellow and red keyword highlights",
+      "props": {
+        "required": ["sentences"],
+        "optional": ["fps", "topY"]
+      }
+    },
+    {
+      "name": "DossierScene",
+      "type": "scene_renderer",
+      "path": "src/engine/scenes/DossierScene.tsx",
+      "export": "DossierScene",
+      "status": "confirmed_used",
+      "purpose": "Forensic evidence board with targeting reticles, laser lines, and rubber stamps",
+      "props": {
+        "required": ["config"],
+        "optional": []
+      }
+    },
+    {
+      "name": "Showcase3DScene",
+      "type": "scene_renderer",
+      "path": "src/engine/scenes/Showcase3DScene.tsx",
+      "export": "Showcase3DScene",
+      "status": "confirmed_used",
+      "purpose": "Three.js 3D vehicle and object turntable with telemetry HUD overlay",
+      "props": {
+        "required": ["config"],
+        "optional": []
+      }
+    },
+    {
+      "name": "DialogueScene",
+      "type": "scene_renderer",
+      "path": "src/engine/scenes/DialogueScene.tsx",
+      "export": "DialogueScene",
+      "status": "confirmed_used",
+      "purpose": "Procedural 2D character conversational scene against environment plate",
+      "props": {
+        "required": ["config"],
+        "optional": []
+      }
+    },
+    {
+      "name": "InfographicScene",
+      "type": "scene_renderer",
+      "path": "src/engine/scenes/InfographicScene.tsx",
+      "export": "InfographicScene",
+      "status": "confirmed_used",
+      "purpose": "Dynamic data visualization with metric cards and animated progress bars",
+      "props": {
+        "required": ["config"],
+        "optional": []
+      }
+    },
+    {
+      "name": "MirrorHorrorScene",
+      "type": "scene_renderer",
+      "path": "src/engine/scenes/MirrorHorrorScene.tsx",
+      "export": "MirrorHorrorScene",
+      "status": "confirmed_used",
+      "purpose": "Psychological horror impossible scenario with decoupled reflection and fracture decals",
+      "props": {
+        "required": ["config"],
+        "optional": []
+      }
+    },
+    {
+      "name": "Character",
+      "type": "character_renderer",
+      "path": "src/characters/Character.tsx",
+      "export": "Character",
+      "status": "confirmed_used",
+      "purpose": "Procedural 2D SVG rigged character with breathing, emotions, and poses",
+      "props": {
+        "required": ["id"],
+        "optional": ["emotion", "pose", "view", "gaze", "facing", "width", "height", "animate"]
+      }
+    },
+    {
+      "name": "GLBModelLoader",
+      "type": "three_loader",
+      "path": "src/components/GLBModelLoader.tsx",
+      "export": "GLBModelLoader",
+      "status": "confirmed_used",
+      "purpose": "Deterministic frame-synced GLB/GLTF 3D model loader inside React Three Fiber",
+      "props": {
+        "required": ["modelPath"],
+        "optional": ["animationName", "position", "scale", "rotation"]
+      }
+    },
+    {
+      "name": "MuscleCarRig",
+      "type": "three_rig",
+      "path": "src/car/MuscleCarRig.tsx",
+      "export": "MuscleCarRig",
+      "status": "confirmed_used",
+      "purpose": "High-detail 3D car rig with active steering, wheel spin, body roll, and exploded schematic",
+      "props": {
+        "required": [],
+        "optional": ["steerAngle", "wheelRotation", "bodyRoll", "explodeFactor"]
+      }
+    },
+    {
+      "name": "Grain",
+      "type": "vfx_overlay",
+      "path": "src/part3/fx/Overlays.tsx",
+      "export": "Grain",
+      "status": "confirmed_used",
+      "purpose": "Pre-rendered 6-tile 15fps cycling film grain texture",
+      "props": {
+        "required": [],
+        "optional": ["opacity"]
+      }
+    },
+    {
+      "name": "Vignette",
+      "type": "vfx_overlay",
+      "path": "src/part3/fx/Overlays.tsx",
+      "export": "Vignette",
+      "status": "confirmed_used",
+      "purpose": "Pulsing heartbeat vignette",
+      "props": {
+        "required": [],
+        "optional": []
+      }
+    },
+    {
+      "name": "GlitchBurst",
+      "type": "vfx_overlay",
+      "path": "src/part3/fx/Overlays.tsx",
+      "export": "GlitchBurst",
+      "status": "confirmed_used",
+      "purpose": "Multi-slice horizontal screen glitch on cut transitions",
+      "props": {
+        "required": ["at"],
+        "optional": ["len", "power"]
+      }
+    }
+  ]
+}

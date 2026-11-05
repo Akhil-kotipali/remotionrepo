@@ -1,0 +1,36 @@
+{
+  "name": "Antigravity Universal Remotion Engine",
+  "version": "2.0.0",
+  "remotionVersion": "4.0.539",
+  "reactVersion": "19.2.3",
+  "typescriptVersion": "5.9.3",
+  "threeVersion": "0.186.1",
+  "rootComposition": "PackageEpisode",
+  "entryPoint": "src/Root.tsx",
+  "engineArchitecture": "UniversalEpisode",
+  "defaultResolution": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16",
+    "fps": 30
+  },
+  "gpuAcceleration": {
+    "renderer": "angle",
+    "backend": "DirectX 11 D3D11",
+    "concurrency": 4,
+    "targetHardware": "NVIDIA GeForce RTX 3050 Laptop GPU (4GB VRAM)"
+  },
+  "bundler": {
+    "type": "Rspack",
+    "tailwind": "v4.0.0"
+  },
+  "packageSpecVersion": "2.0.0",
+  "supportedThemes": [
+    "analog_horror",
+    "cyberpunk",
+    "police_audit",
+    "tech_minimal",
+    "neon_noir"
+  ],
+  "verificationStatus": "confirmed_implemented"
+}

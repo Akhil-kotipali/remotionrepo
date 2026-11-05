@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-11-05T08:55:00",
+  "scenes": [
+    {
+      "type": "dossier",
+      "component": "DossierScene",
+      "sourcePath": "src/engine/scenes/DossierScene.tsx",
+      "configInterface": "DossierSceneConfig",
+      "status": "confirmed_used",
+      "features": [
+        "Header pill badge",
+        "Targeting reticle box with pixel coordinates",
+        "Laser vector pointer with millimeter label",
+        "Red classified animated rubber stamp"
+      ]
+    },
+    {
+      "type": "showcase3d",
+      "component": "Showcase3DScene",
+      "sourcePath": "src/engine/scenes/Showcase3DScene.tsx",
+      "configInterface": "Showcase3DSceneConfig",
+      "status": "confirmed_used",
+      "features": [
+        "3D Three.js canvas integration",
+        "Draco-compressed GLB model loading",
+        "5 camera modes: turntable, drive, drift, exploded, cyberpunk",
+        "Digital telemetry HUD overlay"
+      ]
+    },
+    {
+      "type": "dialogue",
+      "component": "DialogueScene",
+      "sourcePath": "src/engine/scenes/DialogueScene.tsx",
+      "configInterface": "DialogueSceneConfig",
+      "status": "confirmed_used",
+      "features": [
+        "Multi-character 2D SVG staging",
+        "Dynamic facial expression morphing",
+        "Kinematic arm poses",
+        "Animated speech bubble pointing to active speaker",
+        "Camera push-in zoom"
+      ]
+    },
+    {
+      "type": "infographic",
+      "component": "InfographicScene",
+      "sourcePath": "src/engine/scenes/InfographicScene.tsx",
+      "configInterface": "InfographicSceneConfig",
+      "status": "confirmed_used",
+      "features": [
+        "Card layouts (grid, vertical_cards, tab_bar)",
+        "Metric value callouts",
+        "Color-coded comparison indicators"
+      ]
+    },
+    {
+      "type": "mirror_horror",
+      "component": "MirrorHorrorScene",
+      "sourcePath": "src/engine/scenes/MirrorHorrorScene.tsx",
+      "configInterface": "MirrorHorrorSceneConfig",
+      "status": "confirmed_used",
+      "features": [
+        "Physical ambient room downlighting",
+        "Beveled metallic mirror frame",
+        "Decoupled reflection entity choreography",
+        "Radial glass fracture decals",
+        "Exponential camera shake on knock frames",
+        "Subliminal whisper text overlay"
+      ]
+    }
+  ]
+}

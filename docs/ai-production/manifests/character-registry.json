@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-11-05T08:55:00",
+  "characters": [
+    {
+      "id": "arjun",
+      "name": "Arjun",
+      "role": "Lead Investigator / Tech Analyst",
+      "implementationType": "procedural_svg",
+      "sourcePath": "src/characters/Character.tsx",
+      "designPath": "src/characters/designs.ts",
+      "palette": {
+        "skin": "#c68b59",
+        "hair": "#1a1a1a",
+        "jacket": "#4a5d4e",
+        "accent": "#d97706"
+      },
+      "build": "average",
+      "hairStyle": "wavy",
+      "accessory": "phone",
+      "voiceMapping": "en-US-BrianMultilingualNeural",
+      "status": "confirmed_used"
+    },
+    {
+      "id": "dev",
+      "name": "Dev",
+      "role": "Conversational Mediator / Storyteller",
+      "implementationType": "procedural_svg",
+      "sourcePath": "src/characters/Character.tsx",
+      "designPath": "src/characters/designs.ts",
+      "palette": {
+        "skin": "#b87d4b",
+        "hair": "#172A42",
+        "jacket": "#2C4A70",
+        "accent": "#38bdf8"
+      },
+      "build": "slim",
+      "hairStyle": "curly",
+      "voiceMapping": "en-US-GuyNeural",
+      "status": "confirmed_used"
+    },
+    {
+      "id": "rahul",
+      "name": "Rahul",
+      "role": "Protective Anchor / Heavy Build",
+      "implementationType": "procedural_svg",
+      "sourcePath": "src/characters/Character.tsx",
+      "designPath": "src/characters/designs.ts",
+      "palette": {
+        "skin": "#9c6644",
+        "hair": "#0f0f0f",
+        "jacket": "#A25332",
+        "accent": "#ef4444"
+      },
+      "build": "broad",
+      "hairStyle": "short",
+      "voiceMapping": "en-US-EricNeural",
+      "status": "confirmed_used"
+    },
+    {
+      "id": "meera",
+      "name": "Meera",
+      "role": "Documentarian / Observant Artist",
+      "implementationType": "procedural_svg",
+      "sourcePath": "src/characters/Character.tsx",
+      "designPath": "src/characters/designs.ts",
+      "palette": {
+        "skin": "#e0a96d",
+        "hair": "#1a1a1a",
+        "jacket": "#7D334C",
+        "accent": "#ec4899"
+      },
+      "build": "slim",
+      "hairStyle": "longBraid",
+      "accessory": "camera",
+      "voiceMapping": "en-US-AriaNeural",
+      "status": "confirmed_used"
+    },
+    {
+      "id": "kabir",
+      "name": "Kabir",
+      "role": "Strategic Analyst / Precision Thinker",
+      "implementationType": "procedural_svg",
+      "sourcePath": "src/characters/Character.tsx",
+      "designPath": "src/characters/designs.ts",
+      "palette": {
+        "skin": "#bd8c61",
+        "hair": "#1e293b",
+        "jacket": "#2D7377",
+        "accent": "#14b8a6"
+      },
+      "build": "average",
+      "hairStyle": "textured",
+      "accessory": "glasses",
+      "voiceMapping": "en-GB-RyanNeural",
+      "status": "confirmed_used"
+    },
+    {
+      "id": "nisha",
+      "name": "Nisha",
+      "role": "Operations Coordinator / Quick-Witted",
+      "implementationType": "procedural_svg",
+      "sourcePath": "src/characters/Character.tsx",
+      "designPath": "src/characters/designs.ts",
+      "palette": {
+        "skin": "#d4a373",
+        "hair": "#2a2015",
+        "jacket": "#C29631",
+        "accent": "#f59e0b"
+      },
+      "build": "slim",
+      "hairStyle": "bob",
+      "voiceMapping": "en-US-JennyNeural",
+      "status": "confirmed_used"
+    },
+    {
+      "id": "reflection",
+      "name": "The Reflection Entity",
+      "role": "Spectral Anomaly Counterpart",
+      "implementationType": "procedural_svg",
+      "sourcePath": "src/characters/Character.tsx",
+      "designPath": "src/characters/designs.ts",
+      "palette": {
+        "skin": "#949DA8",
+        "hair": "#020617",
+        "jacket": "#1E293B",
+        "accent": "#38BDF8"
+      },
+      "build": "slim",
+      "hairStyle": "wavy",
+      "voiceMapping": "en-US-ChristopherNeural",
+      "status": "confirmed_used"
+    }
+  ],
+  "supportedEmotions": [
+    "neutral",
+    "worried",
+    "angry",
+    "sad",
+    "scared",
+    "relieved",
+    "happy",
+    "creepySmile",
+    "hollowScared",
+    "frozenTerror"
+  ],
+  "supportedPoses": [
+    "idle",
+    "walking",
+    "talking",
+    "phone",
+    "camera",
+    "armsCrossed",
+    "knocking",
+    "pressingGlass",
+    "standingFrozen"
+  ]
+}

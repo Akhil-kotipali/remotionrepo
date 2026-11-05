@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-11-05T08:55:00",
+  "engine": "Antigravity Universal Remotion Engine 2.0",
+  "capabilities": {
+    "zeroTsxEditingEpisodes": {
+      "status": "confirmed_used",
+      "mechanism": "PackageEpisode with calculateMetadata + JSON manifest injection"
+    },
+    "dynamicMetadata": {
+      "status": "confirmed_used",
+      "mechanism": "Calculates duration, dimensions, and FPS at render time without recompilation"
+    },
+    "neuralTtsSynthesis": {
+      "status": "confirmed_used",
+      "mechanism": "Microsoft edge-tts via Python asyncio"
+    },
+    "dspMastering": {
+      "status": "confirmed_used",
+      "mechanism": "Miniaudio + Scipy Butterworth room reverb + peak -1.5 dBFS normalization"
+    },
+    "kineticWordLevelCaptions": {
+      "status": "confirmed_used",
+      "mechanism": "UniversalCaptions with proportional character-duration chunking and yellow/red keyword highlights"
+    },
+    "seamlessLoopBridge": {
+      "status": "confirmed_used",
+      "mechanism": "12-frame camera shutter white flash dissolve connecting end frame to start frame"
+    },
+    "missingAssetDetection": {
+      "status": "confirmed_used",
+      "mechanism": "Halt with exit code 1, emit ASSET_ACQUISITION_GUIDE.md, and re-validate via studio.py assets"
+    },
+    "gpuAcceleration": {
+      "status": "confirmed_used",
+      "mechanism": "Chromium ANGLE D3D11 hardware acceleration with concurrency=4 on RTX 3050 Laptop GPU"
+    },
+    "threeJsVehicleRigs": {
+      "status": "confirmed_used",
+      "mechanism": "MuscleCarRig with active steering, wheel spin, body roll, and exploded schematics"
+    },
+    "procedural2dCharacterRigs": {
+      "status": "confirmed_used",
+      "mechanism": "Character.tsx with 7 identities, 10 emotions, and 9 kinematics poses in pure SVG"
+    },
+    "human3dMixamoRigging": {
+      "status": "not_implemented",
+      "workaround": "Use procedural 2D SVG Character rigs"
+    },
+    "visemePhoneticLipSync": {
+      "status": "not_implemented",
+      "workaround": "Speech bubbles, mouth pulsing, and eye gaze reactions"
+    }
+  }
+}

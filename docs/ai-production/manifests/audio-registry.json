@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-11-05T08:55:00",
+  "ttsEngine": {
+    "provider": "Microsoft edge-tts",
+    "version": "7.3.1",
+    "networkRequirement": "Online during audio generation stage",
+    "offlineFallback": "Pre-rendered PCM WAV in audio/voiceover_master.wav",
+    "sampleRate": 44100,
+    "channels": "Stereo",
+    "status": "confirmed_used"
+  },
+  "dspPipeline": {
+    "normalizationTarget": "-1.5 dBFS",
+    "silenceTrimThreshold": "-40 dB",
+    "silenceSafetyPaddingSec": 0.02,
+    "reverbConvolution": {
+      "decaySec": 0.35,
+      "mix": 0.15,
+      "lowpassCutoffHz": 3500
+    },
+    "status": "confirmed_used"
+  },
+  "coreSfxLibrary": [
+    { "file": "impact_boom.wav", "category": "impact", "durationSec": 2.8, "status": "available" },
+    { "file": "glitch_hit.wav", "category": "transition", "durationSec": 0.6, "status": "available" },
+    { "file": "crack_glass.wav", "category": "foley", "durationSec": 1.2, "status": "available" },
+    { "file": "ear_ring.wav", "category": "drone", "durationSec": 15.0, "status": "available" },
+    { "file": "camera_shutter.wav", "category": "foley", "durationSec": 0.8, "status": "available" },
+    { "file": "reverse_swell.wav", "category": "riser", "durationSec": 2.2, "status": "available" },
+    { "file": "heartbeat.wav", "category": "foley", "durationSec": 1.0, "status": "available" },
+    { "file": "whoosh.wav", "category": "transition", "durationSec": 0.5, "status": "available" }
+  ]
+}

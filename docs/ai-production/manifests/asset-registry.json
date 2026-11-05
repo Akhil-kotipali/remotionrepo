@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-11-05T08:55:00",
+  "publicAssetLibrary": {
+    "backgrounds": [
+      {
+        "filename": "living_room.jpg",
+        "resolution": "1080x1920",
+        "aspectRatio": "9:16",
+        "format": "JPG",
+        "license": "Royalty-Free Clean",
+        "status": "available"
+      },
+      {
+        "filename": "exterior.jpg",
+        "resolution": "1080x1920",
+        "aspectRatio": "9:16",
+        "format": "JPG",
+        "license": "Royalty-Free Clean",
+        "status": "available"
+      },
+      {
+        "filename": "hallway.jpg",
+        "resolution": "1080x1920",
+        "aspectRatio": "9:16",
+        "format": "JPG",
+        "license": "Royalty-Free Clean",
+        "status": "available"
+      }
+    ],
+    "models": [
+      {
+        "filename": "MUSCLE_CAR.glb",
+        "sizeMb": 6.2,
+        "format": "glTF 2.0 Binary (Draco compressed)",
+        "meshes": ["Body", "Wheel_FL", "Wheel_FR", "Wheel_RL", "Wheel_RR", "Chassis", "Glass"],
+        "status": "available"
+      }
+    ],
+    "vfxTextures": [
+      { "pattern": "fx/grain_{0..5}.png", "count": 6, "format": "PNG", "status": "available" }
+    ]
+  }
+}

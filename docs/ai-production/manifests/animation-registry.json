@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-11-05T08:55:00",
+  "animationSystems": [
+    {
+      "name": "InterpolateCurve",
+      "type": "remotion_core",
+      "function": "interpolate",
+      "source": "remotion",
+      "status": "confirmed_used",
+      "purpose": "Linear and bezier easing value mapping based on useCurrentFrame"
+    },
+    {
+      "name": "SpringPhysics",
+      "type": "remotion_core",
+      "function": "spring",
+      "source": "remotion",
+      "status": "confirmed_used",
+      "purpose": "Organic mass/damping/stiffness bounce animations"
+    },
+    {
+      "name": "KeyframeSequence",
+      "type": "utility",
+      "function": "kf",
+      "source": "src/part3/math.ts",
+      "status": "confirmed_used",
+      "purpose": "Piecewise multi-point keyframe timeline interpolation"
+    },
+    {
+      "name": "SeededRandom",
+      "type": "utility",
+      "function": "rnd",
+      "source": "src/part3/math.ts",
+      "status": "confirmed_used",
+      "purpose": "Deterministic pseudo-random value generator for flicker and glitch without render drift"
+    },
+    {
+      "name": "CameraShakeDecay",
+      "type": "kinetic_math",
+      "formula": "Math.sin(delta * 2.8) * 16 * Math.exp(-delta * 0.35)",
+      "source": "src/engine/scenes/MirrorHorrorScene.tsx",
+      "status": "confirmed_used",
+      "purpose": "Exponential shockwave camera shake on kinetic impacts"
+    },
+    {
+      "name": "ThreeAnimationMixerSync",
+      "type": "webgl_sync",
+      "source": "src/components/GLBModelLoader.tsx",
+      "status": "confirmed_used",
+      "purpose": "Synchronizes GLTF animation clips deterministically with frame / fps"
+    }
+  ]
+}
